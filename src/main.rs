@@ -54,7 +54,7 @@ fn retrieve_words() {
 
 fn prompt_for_words() -> Vec<String> {
     let mut words = Vec::new();
-    for i in 1..=12 {
+    for i in 1..= 25 {
         println!("Input a word {}:", i);
         let mut word = String::new();
         io::stdin().read_line(&mut word).expect("Error when reading a word");
